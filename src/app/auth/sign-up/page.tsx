@@ -1,7 +1,7 @@
-import ButtonHandler from '@/components/sign-up/button-handler';
-import SignUpFormProvider from '@/components/sign-up/form-provider';
-import HighLightBar from '@/components/sign-up/highlight-bar';
-import RegistrationFormStep from '@/components/sign-up/registration-step';
+import ButtonHandler from '@/components/form/sign-up/button-handler';
+import SignUpFormProvider from '@/components/form/sign-up/form-provider';
+import HighLightBar from '@/components/form/sign-up/highlight-bar';
+import RegistrationFormStep from '@/components/form/sign-up/registration-step';
 
 const SignUpPage = () => {
   return (

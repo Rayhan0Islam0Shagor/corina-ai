@@ -1,4 +1,4 @@
-import OTPInput from '@/components/otp';
+import OTPInput from '@/components/form/otp';
 import React from 'react';
 
 type Props = {

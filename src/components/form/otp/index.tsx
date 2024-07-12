@@ -1,5 +1,5 @@
 import React from 'react';
-import { InputOTP, InputOTPSlot } from '../ui/input-otp';
+import { InputOTP, InputOTPSlot } from '@/components/ui/input-otp';
 
 type Props = {
   otp: string;

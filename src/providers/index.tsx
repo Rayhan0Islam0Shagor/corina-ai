@@ -1,11 +1,16 @@
-import { ClerkProvider } from '@clerk/nextjs';
+import { Toaster } from '@/components/ui/toaster';
 
 const Providers = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) => {
-  return <ClerkProvider>{children}</ClerkProvider>;
+  return (
+    <>
+      {children}
+      <Toaster />
+    </>
+  );
 };
 
 export default Providers;

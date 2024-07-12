@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { useFormContext } from 'react-hook-form';
 import TypeSelectionForm from './type-selection-form';
 import dynamic from 'next/dynamic';
-import { Spinner } from '../loader/spinner';
+import { Spinner } from '../../loader/spinner';
 
 const DetailForm = dynamic(() => import('./account-details-form'), {
   ssr: false,

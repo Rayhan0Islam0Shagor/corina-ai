@@ -3,7 +3,7 @@ import { useAuthContext } from '@/context/auth-context';
 import useSignUpForm from '@/hooks/auth/useSignUp';
 import React from 'react';
 import { useFormContext } from 'react-hook-form';
-import { Button } from '../ui/button';
+import { Button } from '../../ui/button';
 import Link from 'next/link';
 
 type Props = {};
